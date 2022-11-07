@@ -1,0 +1,92 @@
+header{
+    position: relative;
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom right, rgb(3, 6, 98), rgb(192, 248, 192));
+    width: 1477px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#b{
+    font-size: 3rem;
+    font-family: Laura;
+    position: relative;
+    top: 35px;
+    left: 0px;
+}
+  
+.navbar-nav > li > a {
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px #0c0c0c;
+}
+
+.nav-item{
+  padding: 12px ;
+}
+
+.navbar-light .nav-item .nav-link:active{
+  font-weight: bolder;
+  color: white;
+}
+
+.nav-item.active .nav-link,
+.nav-item .nav-link:active,
+.nav-item .nav-link:focus,
+.nav-item:hover .nav-link {
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+
+
+.cards:hover{
+  transform: scale(120%);
+  
+}
+
+.cards{
+  transition: 1s;
+}
+
+#banner{
+  margin-top: 2em;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url('bannar.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%;
+  border-radius: 10px;
+}
+#whiteCard{
+  top: 455px;
+  right: 260px;
+  width: 220px;
+  height :170px;
+  background-color: white;
+}
+#winterRev{
+  top: 470px;
+  right: 295px;
+  width: 200px;
+  height :190px;
+}
+#main-content{
+  top: 360px;
+  left: 250px;
+  color: #fff;
+}
+#largeText{
+  font-size: 10ch;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#learnbutton{
+  bottom: -10px;
+  left: 250px;
+  background: #00c6bd;
+}
